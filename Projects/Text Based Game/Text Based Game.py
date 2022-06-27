@@ -3,6 +3,9 @@ from sys import executable, argv, stdout
 from os import path, system, name
 from subprocess import call
 
+#To explore the full story, follow this story path including the 'Do you want to play this game' input.
+#By using this as your answers or choice: Y, Y, 1, N, 2, 1,(a, 1, c), n
+
 n_duration = 2 #2
 long_n_duration = 3
 sleep_before_restart = 15
